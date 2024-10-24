@@ -1,14 +1,28 @@
 {
     "name": "NPL.Foundation.Audio",
     "rootNamespace": "NPL.Foundation.Audio",
-    "references": [],
+    "references": [
+        "UniTask",
+        "Unity.Collections"
+    ],
     "includePlatforms": [],
     "excludePlatforms": [],
-    "allowUnsafeCode": false,
+    "allowUnsafeCode": true,
     "overrideReferences": false,
     "precompiledReferences": [],
     "autoReferenced": true,
     "defineConstraints": [],
-    "versionDefines": [],
+    "versionDefines": [
+        {
+            "name": "com.cysharp.unitask",
+            "expression": "",
+            "define": "UNITASK"
+        },
+        {
+            "name": "com.unity.collections",
+            "expression": "",
+            "define": "UNITY_COLLECTIONS"
+        }
+    ],
     "noEngineReferences": false
 }
